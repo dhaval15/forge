@@ -1,0 +1,107 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrains Mono", "Symbols Nerd Font", "Noto Sans Symbols 2", "Font Awesome 6 Free", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #191724;
+  padding-top: 4px;
+}
+
+#workspaces,
+#clock,
+#backlight,
+#custom-system,
+#pulseaudio,
+#battery,
+#network {
+  margin: 1px 4px;
+  padding: 0 8px;
+  min-height: 18px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #191724;
+}
+
+#clock {
+  background: #a8c7d1;
+  color: #191724;
+}
+
+#backlight {
+  background: #f5c2e7;
+  color: #191724;
+}
+
+#custom-system {
+  background: #c4a7e7;
+  color: #191724;
+}
+
+#pulseaudio {
+  background: #eb6f92;
+  color: #191724;
+}
+
+#battery {
+  background: #f6c177;
+  color: #191724;
+}
+
+#network {
+  background: #9ccfd8;
+  color: #191724;
+}
+
+#workspaces button {
+  margin: 0 3px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: transparent;
+  color: #d8d8d8;
+}
+
+#workspaces button.visible,
+#workspaces button.persistent,
+#workspaces button.hosting-monitor {
+  color: #ffffff;
+}
+
+#workspaces button.empty,
+#workspaces button.empty.persistent {
+  color: #b5b5b5;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+  background: #c4a7e7;
+  color: #191724;
+}
+
+#workspaces button.urgent {
+  background: #eb6f92;
+  color: #191724;
+}
+
+#workspaces button:hover,
+#clock:hover,
+#pulseaudio:hover,
+#battery:hover,
+#network:hover {
+  background: #403d52;
+}
+
+#tray {
+  margin: 1px 4px;
+  padding: 0 6px;
+  background: transparent;
+}
+
+#tray > .passive {
+  opacity: 0.8;
+}
