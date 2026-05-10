@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Hyprland (Custom)
+Comment=A dynamic tiling Wayland compositor
+Exec=/usr/bin/start-hyprland -- --config /home/dhaval/forge/hypr/hyprland.conf
+Type=Application
+DesktopNames=Hyprland
+Keywords=tiling;wayland;compositor;
